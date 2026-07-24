@@ -30,6 +30,12 @@ public class VariabkeTest3 {
         char c1 = 'a';
         char c2 = 'b';
         int i3 = c1 + c2; // 运算过程中，c1和c2会自动提升为int类型
+        //精度损失
+        int i5 = 129;
+        byte b3 = (byte)i5;
+        System.out.println(b3);
+
+
 
     }
 }

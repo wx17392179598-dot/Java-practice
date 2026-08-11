@@ -1,21 +1,3 @@
-**7.31**
--
-学习了For、while、无限循环、嵌套循环，相关知识和进行了对应的训练。 
-
----
-**8.4**
--
-1、学习了关于流程控制的相关知识，练习了实体项目的的实现，以及关键字break、continue的使用。
-
-2、以及对于不同算法之间性能的优化和比较。 
-
-3、复习了第三章的知识点，回忆里下相关知识。
-
----
-**8.11**
--
-1、一维数组的学习和联系，各种类型的数组的使用以及初始值和数组遍历的实现。
-```java
 public class OneArrayTest1 {
     public static void main(String[] args) {
         //5.数组元素的默认初始化值
@@ -57,44 +39,14 @@ public class OneArrayTest1 {
             System.out.println("arr7[0] is null");
         }
 
-    }
-}
-
-```
-2、一维数组的内存解析
-```java
-int[]a1 = new int[]{1,2,3};
+        //6.数组的内存解析
+        int[]a1 = new int[]{1,2,3};
         int[]a2 = a1;
         System.out.println(a1[1]);
         System.out.println(a1);
         a2[1] = 100;
         System.out.println(a1[1]);
         System.out.println(a2);
-```
-3、一维数组的练习
-```java
-/*
-案例一:输出英文星期几
-用一个数组，保存星期一到星期天的7个英语单词，从键盘输入1-7，显示对应的单词
-("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
- */
-import  java.util.Scanner;
-
-public class OneArrayExer1 {
-    public static void main(String[] args) {
-        String[] week = new String[]{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-        Scanner sc = new Scanner(System.in);
-        System.out.println("请输出数字（1-7）：");
-        int day = sc.nextInt();
-        if (day > 7||day<1) {
-            System.out.println("输入有误！");
-        } else {
-            System.out.println(week[day - 1]);
-        }
-        sc.close();
 
     }
 }
-//案例二具体可看:OneArrayExer2和OneArrayExer3;
-```
----

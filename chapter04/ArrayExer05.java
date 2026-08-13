@@ -1,7 +1,7 @@
 /*
 案例:
 定义数组:int[] arr = new int[]{34,54,3,2,65,7,34,5,76,34,67};
-如何实现数组元素的庆转存储?你有几种方法。
+如何实现数组元素的反转存储?你有几种方法。
  */
 
 import java.util.Arrays;
@@ -20,11 +20,17 @@ public class ArrayExer05 {
 //            arr[arr.length-1-i]=temp;
 //        }
         //方式二
-        int []newArr = new int[arr.length];
-        for(int i= arr.length-1;i>=0;i--){
-            newArr[arr.length-1-i]=arr[i];
+        for(int i=0,j=arr.length-1;i<j;i++,j--){
+            int temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
         }
-        arr=newArr;
+        //方式三：不推荐
+//        int []newArr = new int[arr.length];
+//        for(int i= arr.length-1;i>=0;i--){
+//            newArr[arr.length-1-i]=arr[i];
+//        }
+//        arr=newArr;
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }

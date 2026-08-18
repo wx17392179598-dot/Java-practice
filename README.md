@@ -232,4 +232,13 @@ public class TwoArrayExer2 {
 1、时间复杂度O(nlogn)
 2、概念逻辑：从数组中。第一个数为标准，找到比他大的放后面，比他小的放前面，然后分为左右两组，这样前面都是比他小的，后面比他大的，然后前后分别分组继续循环以上操作，以此类推直到顺序正确。
 ```
+***8.18***
+-
+1、复习了数组的相关知识
 
+2、学习了面向对象开发的相关知识，以及类的实例化等[PhoneTest.java](chapter05/Test1/PhoneTest.java)
+[Phone.java](chapter05/Test1/Phone.java)
+
+3、学习了内存分析的内容具体可见[Person.java](chapter05/Test2/Person.java)和[PersonTest.java](chapter05/Test2/PersonTest.java)
+![创建类中多个对象的内存解析.png](chapter05/Test2/%E5%88%9B%E5%BB%BA%E7%B1%BB%E4%B8%AD%E5%A4%9A%E4%B8%AA%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E8%A7%A3%E6%9E%90.png)
+![创建类中一个对象的内存解析.png](chapter05/Test2/%E5%88%9B%E5%BB%BA%E7%B1%BB%E4%B8%AD%E4%B8%80%E4%B8%AA%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E8%A7%A3%E6%9E%90.png)

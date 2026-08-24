@@ -242,3 +242,9 @@ public class TwoArrayExer2 {
 3、学习了内存分析的内容具体可见[Person.java](chapter05/Test2/Person.java)和[PersonTest.java](chapter05/Test2/PersonTest.java)
 ![创建类中多个对象的内存解析.png](chapter05/Test2/%E5%88%9B%E5%BB%BA%E7%B1%BB%E4%B8%AD%E5%A4%9A%E4%B8%AA%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E8%A7%A3%E6%9E%90.png)
 ![创建类中一个对象的内存解析.png](chapter05/Test2/%E5%88%9B%E5%BB%BA%E7%B1%BB%E4%B8%AD%E4%B8%80%E4%B8%AA%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E8%A7%A3%E6%9E%90.png)
+
+***8.24***
+-
+1、学习了类的成员之一：属性对应内容是[类的成员之一：属性.txt](chapter05/Test3/%E7%B1%BB%E7%9A%84%E6%88%90%E5%91%98%E4%B9%8B%E4%B8%80%EF%BC%9A%E5%B1%9E%E6%80%A7.txt)
+
+2、进行了相关练习[exer1](chapter05/Test3/exer1)和[exer2](chapter05/Test3/exer2)以及练习二对应的内存分析图![对应的内存分析示意图.png](chapter05/Test3/exer2/%E5%AF%B9%E5%BA%94%E7%9A%84%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
